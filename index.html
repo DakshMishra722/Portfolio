@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daksh Mishra | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar">
+        <h2 class="logo">Daksh</h2>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle">🌙</button>
+    </nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="section home">
+    <h1>Hello, I'm <span>Daksh Mishra</span></h1>
+    <p>BTech CSE Student | Developer</p>
+    <a href="resume.pdf" download class="btn">Download Resume</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        I am pursuing BTech CSE Core in 2nd semester.
+        My hobbies are reading books and watching movies.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <div class="card">Java</div>
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JavaScript</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="project-card">
+            <img src="https://via.placeholder.com/300" alt="project">
+            <h3>Portfolio Website</h3>
+        </div>
+        <div class="project-card">
+            <img src="https://via.placeholder.com/300" alt="project">
+            <h3>Java App</h3>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form action="contact" method="post" onsubmit="return validateForm()">
+        <input type="text" name="name" placeholder="Your Name" id="name">
+        <input type="email" name="email" placeholder="Your Email" id="email">
+        <textarea name="message" placeholder="Your Message" id="message"></textarea>
+        <button type="submit" class="btn">Send</button>
+    </form>
+
+    <p>Email: dakshmishra722@gmail.com</p>
+
+    <div class="social">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Daksh Mishra. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
